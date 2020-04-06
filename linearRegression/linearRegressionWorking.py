@@ -23,6 +23,8 @@ x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y
 
 # P2= Train the modal utils we have a better score
 # P1 =We skip the training data because it's saved on the pickle file
+
+# During the first run of this program, uncomment this part and then comment it.
 """
 best = 0
 for _ in range(100):
