@@ -37,4 +37,4 @@ names = ["unacc", "acc", "good", "vgood"]  # Dataset names
 for x in range(len(predicted)):
     print("Predicted: ", names[predicted[x]], "Data: ", x_test[x], "Actual: ", names[y_test[x]])
     n = model.kneighbors([x_test[x]], 9, True)  # Doesn't know how to look at 2 dimensional data so the syntax is weird
-    print("N:", n)
+   # print("N:", n)
